@@ -1,0 +1,7 @@
+{
+  "name": "package-a",
+  "version": "0.0.0-pre",
+  "description": "Example package A",
+  "author": "Sujoy Chatterjee",
+  "license": "ISC"
+}
