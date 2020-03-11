@@ -1,5 +1,6 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const path = require('path');
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 module.exports = {
   entry: './src/index.ts',
@@ -42,4 +43,7 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    // new BundleAnalyzerPlugin(),
+  ]
 };
