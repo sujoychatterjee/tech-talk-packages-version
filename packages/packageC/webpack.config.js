@@ -44,6 +44,9 @@ module.exports = {
     ]
   },
   plugins: [
-    // new BundleAnalyzerPlugin(),
-  ]
+    new BundleAnalyzerPlugin(),
+  ],
+  externals: {
+    react: 'react',
+  }
 };
