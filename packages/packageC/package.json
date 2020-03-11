@@ -1,9 +1,11 @@
 {
-  "name": "package-a",
+  "name": "package-c",
   "version": "0.0.0-pre",
   "description": "Example package A",
   "author": "Sujoy Chatterjee",
   "license": "ISC",
+  "main": "./dist/index_bundle.js",
+  "types": "./dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -27,11 +29,9 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "build": "webpack --mode production"
   },
   "dependencies": {
-    "package-c": "0.0.0-pre",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
